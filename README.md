@@ -1,3 +1,11 @@
+# demo of bug:
+
+2021-10-18 17:30:57,399 ERROR [io.sma.rea.mes.kafka] (smallrye-kafka-producer-thread-0) SRMSG18212: Message org.eclipse.microprofile.reactive.messaging.Message$8@b1df9ab was not sent to Kafka topic 'com.fnz.test.sink' - nacking message: org.apache.kafka.common.errors.SerializationException: Error serializing Avro message
+Caused by: org.apache.avro.UnresolvedUnionException: Not in union ["null",{"type":"bytes","logicalType":"decimal","precision":13,"scale":6}]: 0.2995569900640356
+
+
+
+
 # avro-decimal Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
