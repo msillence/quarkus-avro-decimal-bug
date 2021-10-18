@@ -1,0 +1,25 @@
+{
+  "connect.name": "com.fnz.schema.SinkValue",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "default": null,
+      "name": "amountAfter",
+      "type": [
+        "null",
+        {
+          "logicalType": "decimal",
+          "precision": 13,
+          "scale": 6,
+          "type": "bytes"
+        }
+      ]
+    }
+  ],
+  "name": "SinkValue",
+  "namespace": "com.fnz.schema",
+  "type": "record"
+}

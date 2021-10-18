@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "default": null,
+      "name": "amountBefore",
+      "type": [
+        "null",
+        {
+          "logicalType": "decimal",
+          "precision": 13,
+          "scale": 6,
+          "type": "bytes"
+        }
+      ]
+    }
+  ],
+  "name": "SourceValue",
+  "namespace": "com.fnz.schema",
+  "type": "record"
+}

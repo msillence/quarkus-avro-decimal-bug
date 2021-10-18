@@ -1,0 +1,12 @@
+{
+  "connect.name": "com.fnz.schema.SinkKey",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    }
+  ],
+  "name": "SinkKey",
+  "namespace": "com.fnz.schema",
+  "type": "record"
+}
